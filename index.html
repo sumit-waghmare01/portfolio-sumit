@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumit Waghmare</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+          src="https://kit.fontawesome.com/4b9b6e50b0.js"
+          crossorigin="anonymous"
+        ></script>
+      </head>
+      <body>
+        <!-- Navbar -->
+        <header style="position: fixed; top: 0; left: 0; width: 100%; background-color: #fdfdfd; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000;">
+  <div style="display: flex; align-items: center;">
+    <img src="img/s_logo-removebg-preview.png" alt="Logo" style="height: 40px; margin-right: 10px;">
+    <span style="color: rgb(0, 0, 0); font-size: 20px; font-weight: bold;">Sumit</span>
+  </div>
+  <nav>
+    <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+      <li><a href="#" style="color: #271e1e; text-decoration: none; font-size: 16px; font-weight: bold; border-bottom: 2px solid #fff;">Home</a></li>
+      <li><a href="#about" style="color: #0a0808; text-decoration: none; font-size: 16px;">About</a></li>
+      <li><a href="#education" style="color: #0f0b0b; text-decoration: none; font-size: 16px;">Education</a></li>
+      <li><a href="#contact" style="color: #100c0c; text-decoration: none; font-size: 16px;">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+        <!-- place this right after <body> -->
+<canvas id="pentagonCanvas"></canvas>
+
+<!-- your existing content (hero/photo/etc) -->
+<!-- <div class="photo-wrapper">
+  <img src="img/yourphoto.png" alt="Sumit" class="profile-pic">
+</div> -->
+
+<!-- rest of portfolio -->
+
+
+        <!-- Hero Section -->
+<section class="hero" style="margin-top: 26px;">
+  <div class="hero-text">
+    <h1>
+      Hi There,<br />I'm <span class="name">Sumit</span>
+      <span class="surname">Waghmare</span>
+    </h1>
+    <p class="soft">Software Enginner</p>
+    <a href="#about" class="btn">
+      About Me <i class="fa-solid fa-arrow-down"></i>
+    </a>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/sumitwaghmare494"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/sumitwaghmare494"><i class="fab fa-twitter"></i></a>
+      <!-- <a href="#"><i class="fab fa-telegram"></i></a> -->
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <!-- <a href="#"><i class="fab fa-dev"></i></a> -->
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="img/me2.jpg" alt="Profile Picture" />
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+      </body>
+    </html>
+
+    <section class="about-section">
+      <h2 class="section-title">
+        <span class="icon">👤</span> About <span class="highlight">Me</span>
+      </h2>
+
+      <div class="about-container">
+        <div class="about-img">
+          <img src="img/abot.png" alt="Onkar" />
+        </div>
+        <div class="about-text">
+          <h3>I'm Sumit</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            I am a Computer Engineering Student based in Nanded, Maharashtra,
+            India. I am very passionate about improving my coding skills &
+            developing applications & websites. I build WebApps and Websites
+            using MERN Stack. Working for myself to improve my skills. Love to
+            build Full-Stack clones.
+          </p>
+          <p class="info"><strong>Email:</strong><b> sumitwaghmare494@gmail.com </b></p>
+          <p class="info">
+            <strong>Place:</strong> Maharashtra, India - 431605
+          </p>
+          <a href="img/SumitWaghmareresume_completed.pdf" class="resume-btn">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <h2 class="section-title">
+        🎓 My <span class="highlight">Education</span>
+      </h2>
+      <p class="subtitle">
+        Education Is Not The Learning Of Facts, But The Training Of The Mind To
+        Think.
+      </p>
+
+    <!-- First Education Card -->
+<div class="edu-card" 
+     style="transition: box-shadow 0.3s ease;" 
+     onmouseover="this.style.boxShadow='0 4px 15px orange'" 
+     onmouseout="this.style.boxShadow='none'">
+  <img src="img/gramin1.JPG" alt="College Image" />
+  <div class="edu-info">
+    <h3>BTech In Computer Engineering</h3>
+    <p class="institute">Gramin Technical And Management Campus Vshnupuri Nanded</p>
+    <p class="duration">2022-2026 | Currently Pursuing</p>
+  </div>
+</div>
+
+<!-- Second Education Card -->
+<div class="edu-card" 
+     style="transition: box-shadow 0.3s ease;" 
+     onmouseover="this.style.boxShadow='0 4px 15px orange'" 
+     onmouseout="this.style.boxShadow='none'">
+  <img src="school.jpg" alt="School Image" />
+  <div class="edu-info">
+    <h3>HSC Education</h3>
+    <p class="institute">Rajarshi Shahu Vidyalaya Ak Balapur</p>
+    <p class="duration">2021-2022 | Completed</p>
+  </div>
+</div>
+
+<!-- Third Education Card -->
+<div class="edu-card" 
+     style="transition: box-shadow 0.3s ease;" 
+     onmouseover="this.style.boxShadow='0 4px 15px orange'" 
+     onmouseout="this.style.boxShadow='none'">
+  <img src="school.jpg" alt="School Image" />
+  <div class="edu-info">
+    <h3>SSC Education</h3>
+    <p class="institute">Rajarshi Shahu Vidyalaya Ak Balapur</p>
+    <p class="duration">2019-2020 | Completed</p>
+  </div>
+</div>
+
+
+    <!-- Technical Skills Section -->
+    <section class="skills-section">
+      <h2 class="section-title">
+        💻 My <span class="highlight">Technical Skills</span>
+      </h2>
+      <p class="subtitle">Technologies I Use & Work With</p>
+
+      <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Core Java</div>
+        <div class="skill-card">C</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">SQL</div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificate-section">
+      <h2 class="section-title">
+        📜 My <span class="highlight">Certificates</span>
+      </h2>
+      <p class="subtitle">Some Of My Achievements & Recognitions</p>
+
+      <div class="certificate-container">
+        <!-- Certificate Card 1 -->
+        <div class="certificate-card">
+          <img
+            src="img/my web devlopment certificate.jpg"
+            alt="Certificate 1"
+          />
+          <h3>Web Development</h3>
+          <p>Completed an intensive course in full-stack web development.</p>
+        </div>
+
+        <!-- Certificate Card 2 -->
+        <div class="certificate-card">
+          <img
+            src="img/sarthi cyber security and atomation certificate.jpg"
+            alt="Certificate 2"
+          />
+          <h3>cyber security and atomation</h3>
+          <p>Certified in cyber security and atomation in sathi .</p>
+        </div>
+
+        <!-- Certificate Card 3 -->
+        <div class="certificate-card">
+          <img src="img/introduction to java.jpg" alt="Certificate 3" />
+          <h3>Java Programming</h3>
+          <p>Achieved Core Java certification with hands-on projects.</p>
+        </div>
+
+        <!-- Certificate Card 4 -->
+        <div class="certificate-card">
+          <img src="img/cyber security.jpg" alt="Certificate 4" />
+          <h3>cyber security</h3>
+          <p>Completed cyber knowladge & complition certificate.</p>
+        </div>
+
+        <!-- Certificate Card 5 -->
+        <div class="certificate-card">
+          <img
+            src="img/application security certificate .jpg"
+            alt="Certificate 5"
+          />
+          <h3>application security</h3>
+          <p>Earned certificate in application security fundamentals.</p>
+        </div>
+
+        <!-- Certificate Card 6 -->
+        <div class="certificate-card">
+          <img src="img/python certificate.jpg" alt="Certificate 6" />
+          <h3>python</h3>
+          <p>Certified in beginner-level python all concepts.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- About -->
+    <div class="footer-about">
+      <h2>Sumit Portfolio</h2>
+      <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+      <p>Keep Rising 🚀. Connect with me over live chat!</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About</a></li>
+        <li><a href="#education"><i class="fa-solid fa-angle-right"></i> Education</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h2>Contact Info</h2>
+      <p><i class="fa-solid fa-phone"></i> +91 8767046726</p>
+      <p><i class="fa-solid fa-envelope"></i> sumitwaghmare494@gmail.com</p>
+      <p><i class="fa-solid fa-map-marker-alt"></i> MH, India-431605</p>
+      <div class="footer-social">
+        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
+          <i class="fa-brands fa-linked in"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+         <i class="fa-brands fa-linkedin"></i>
+        
+        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-telegram"></i></a> -->
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+  <p class="footer-bottom">Designed With <span class="heart">❤</span> By <span class="name">Sumit Waghmare</span></p>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+</footer>
+
+    </footer>
+  </body>
+</html>
